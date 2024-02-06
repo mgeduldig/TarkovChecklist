@@ -330,3 +330,9 @@ body {
 .donation-header-header {
   font-size: 18px;
 }
+
+.footer {
+  color: #8897AC;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
