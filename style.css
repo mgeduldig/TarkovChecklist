@@ -178,50 +178,6 @@ body {
 .content {
   flex: 1;
 }
-/*
-.card-container {
-  cursor: pointer;
-  margin: 0;
-  display: grid;
-  padding: 0;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-}
-
-.tag-container {
-  cursor: pointer;
-  display: flex;
-}
-
-.item-name {
-  color: #8897AC;
-  width: 100%;
-  cursor: pointer;
-  overflow: hidden;
-  text-align: right;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.count-container {
-  margin-top: -.25rem;
-  margin-right: -1rem;
-  margin-bottom: -1rem;
-  margin-left: -1rem;
-  padding-top: .25rem;
-  padding-right: calc(24px + 1rem);
-  padding-bottom: 1rem;
-  padding-left: calc(24px + 1rem);
-  position: relative;
-}
-
-.count {
-  width: 6rem;
-  font-size: 1.5rem;
-  text-align: center;
-  font-weight: bold;
-  line-height: 1;
-}*/
 
 .form-check{
   padding: .5rem;
@@ -359,4 +315,18 @@ body {
 
 .item-icon-container {
   padding-top: 10px;
+}
+
+.donation-header {
+  background-color: #f0f0f0;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  padding-top: 7px;
+  padding-bottom: 2px;
+  font-size: 12px;
+}
+
+.donation-header-header {
+  font-size: 18px;
 }
