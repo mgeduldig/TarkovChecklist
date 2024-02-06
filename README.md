@@ -15,7 +15,7 @@ Welcome to the Escape from Tarkov Quest Item Checklist Webpage repository! This 
 ## Features
 **▪ Intuitive Interface:** The webpage offers a clean and user-friendly design, making it easy for players to manage and track quest items efficiently.
 
-**▪ Quest Item Checklist:** Access a comprehensive checklist of quest items that need to be found in raid, organized by how they can be obtained, providing a quick overview of your progress.
+**▪ Quest Item Checklist:** Access a comprehensive checklist of quest items that need to be found in raid, providing a quick overview of your progress.
 
 **▪ Search Functionality:** Quickly find specific items using the search functionality, saving you time and effort during gameplay.
 
