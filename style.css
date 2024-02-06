@@ -336,3 +336,28 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+.header-filters {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  margin-left: .5rem;
+  justify-content: space-between;
+}
+
+.filters {
+  justify-content: flex-end;
+  margin-top: -.25rem;
+  margin-right: -.5rem;
+  margin-bottom: -.25rem;
+  margin-left: -.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+label {
+  color: #8897AC;
+}
