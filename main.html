@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/card-counter.js"></script> 
     <script src="js/filter-list.js"></script> 
+    <script src="js/hide-non-kappa.js"></script>
   </head>
 
   <body>
@@ -38,7 +39,18 @@
               <span class="icon-description">Quest required for Kappa</span>
             </div>
           </div>
+          <div class="header-filters">
+            <div class="filters">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="hideNonKappaItems">
+                <label class="form-check-label" for="hideNonKappaItems">
+                  Hide items not required for Kappa
+                </label>
+              </div>
+            </div>
+          </div>
         </div>
+        
       </header>
       <div class="space"></div>
       <main class="contnet">
