@@ -1,0 +1,362 @@
+body {
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  transition: box-shadow 0.33s;
+  margin-bottom: 20px;
+  background-color: #292929! important;
+  transition: background-color .33s ease;
+  cursor: pointer;
+  display: grid;
+  padding: 1rem;
+  grid-gap: .5rem;
+  list-style: none;
+  align-items: center;
+  grid-template-rows: 1rem auto;
+  grid-template-columns: 64px auto;
+  grid-template-areas: none;
+  justify-items: end;
+}
+
+.card-img {
+  cursor: pointer;
+  display: block;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 1; 
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.card-img-top {
+  height: 150px;
+  max-width: 100%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.selected {
+  background-color: #036d1b !important;
+}
+
+#searchInput {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+#cardRow {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.root {
+  padding: 30px;
+  height: 100%;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Bender, Arial;
+}
+
+.header-title {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: .25rem;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  margin-left: .5rem;
+  justify-content: space-between;
+}
+
+.icon-list {
+  margin-top: -.25rem;
+  margin-right: -.5rem;
+  margin-bottom: -.25rem;
+  margin-left: -.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  padding-left: .5rem; 
+}
+
+.icon-craft {
+  flex-shrink: 0;
+  margin-right: .5rem;
+  color: #FFFFFF;
+  width: 2.5rem;
+  height: 1rem;
+  overflow: hidden;
+  font-size: .8rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1rem;
+  border-radius: .5rem;
+  text-transform: uppercase;
+}
+
+.icon-quest {
+  flex-shrink: 0;
+  margin-right: .5rem;
+  color: #FFFFFF;
+  width: 2.5rem;
+  height: 1rem;
+  overflow: hidden;
+  font-size: .8rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1rem;
+  border-radius: .5rem;
+  text-transform: uppercase;
+}
+
+.icon-kappa {
+  flex-shrink: 0;
+  margin-right: .5rem;
+  color: #FFFFFF;
+  width: 2.5rem;
+  height: 1rem;
+  overflow: hidden;
+  font-size: .8rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1rem;
+  border-radius: .5rem;
+  text-transform: uppercase;
+}
+
+.icon-description {
+  color: #8897AC;
+}
+
+.space {
+  height: 1.5rem;
+}
+
+.content {
+  flex: 1;
+}
+/*
+.card-container {
+  cursor: pointer;
+  margin: 0;
+  display: grid;
+  padding: 0;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.tag-container {
+  cursor: pointer;
+  display: flex;
+}
+
+.item-name {
+  color: #8897AC;
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: right;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.count-container {
+  margin-top: -.25rem;
+  margin-right: -1rem;
+  margin-bottom: -1rem;
+  margin-left: -1rem;
+  padding-top: .25rem;
+  padding-right: calc(24px + 1rem);
+  padding-bottom: 1rem;
+  padding-left: calc(24px + 1rem);
+  position: relative;
+}
+
+.count {
+  width: 6rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+}*/
+
+.form-check{
+  padding: .5rem;
+}
+
+.btn {
+  color: #8897AC !important;
+}
+
+.card-container {
+  cursor: pointer;
+  margin: 0;
+  display: grid;
+  padding: 1rem;
+  grid-gap: .5rem;
+  background: #1C1C1C;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+  list-style: none;
+  align-items: center;
+  border-radius: 1rem;
+  grid-template-rows: 1rem auto;
+  grid-template-columns: 64px auto;
+  grid-template-areas: none;
+  justify-items: end;
+}
+
+.image-v2 {
+  cursor: pointer;
+  display: block;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.item-tags {
+  cursor: pointer;
+  display: flex;
+}
+
+.item-name {
+  color: #8897AC;
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.counter-container {
+  margin-top: -.25rem;
+  margin-right: -1rem;
+  margin-bottom: -1rem;
+  margin-left: -1rem;
+  padding-top: .25rem;
+  padding-right: calc(24px + 1rem);
+  padding-bottom: 1rem;
+  padding-left: calc(24px + 1rem);
+  position: relative;
+}
+
+.number-container {
+  width: 6rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.minus-button:not(:last-child) {
+  left: 0;
+  padding-left: 1rem;
+  justify-content: flex-start;
+}
+
+.minus-button {
+  top: 0;
+  color: #8897AC;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  padding-bottom: .75rem;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: flex;
+  padding: 0;
+  font-size: 1rem;
+  background: none;
+  align-items: center;
+  font-family: inherit;
+  font-weight: normal;
+  border-radius: 0;
+}
+
+.plus-button:last-child {
+  right: 0;
+  padding-right: 1rem;
+  justify-content: flex-end;
+}
+
+.plus-button {
+  top: 0;
+  color: #8897AC
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  padding-bottom: .75rem;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: flex;
+  padding: 0;
+  font-size: 1rem;
+  background: none;
+  align-items: center;
+  font-family: inherit;
+  font-weight: normal;
+  border-radius: 0;
+}
+
+.main-flex-container {
+  flex: 1;
+}
+
+.item-list-container {
+  cursor: pointer;
+  margin: 0;
+  display: grid;
+  padding: 0;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.item-icon-container {
+  padding-top: 10px;
+}
