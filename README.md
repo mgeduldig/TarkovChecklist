@@ -2,15 +2,15 @@
 Welcome to the Escape from Tarkov Quest Item Checklist Webpage repository! This project provides a user-friendly webpage for tracking quest items in the popular game Escape from Tarkov. Whether you're a seasoned player or a newcomer, this tool aims to simplify the process of managing quest items, ensuring a smoother gaming experience.
 
 ## Table of Contents
-[▪ Features](https://github.com/mgeduldig/TarkovChecklist/blob/main/README.md#features)
+[▪ Features](https://github.com/mgeduldig/TarkovChecklist?tab=readme-ov-file#features)
 
-[▪ Getting Started](https://github.com/mgeduldig/TarkovChecklist/blob/main/README.md#getting-started)
+[▪ Getting Started](https://github.com/mgeduldig/TarkovChecklist?tab=readme-ov-file#getting-started)
 
-[▪ Usage](https://github.com/mgeduldig/TarkovChecklist/blob/main/README.md#usage)
+[▪ Usage](https://github.com/mgeduldig/TarkovChecklist?tab=readme-ov-file#usage)
 
-[▪ Contributing](https://github.com/mgeduldig/TarkovChecklist/blob/main/README.md#contributing)
+[▪ Contributing](https://github.com/mgeduldig/TarkovChecklist?tab=readme-ov-file#contributing)
 
-[▪ License](https://github.com/mgeduldig/TarkovChecklist/blob/main/README.md#license)
+[▪ License](https://github.com/mgeduldig/TarkovChecklist?tab=readme-ov-file#license)
 
 ## Features
 **▪ Intuitive Interface:** The webpage offers a clean and user-friendly design, making it easy for players to manage and track quest items efficiently.
