@@ -6,17 +6,25 @@
     </title>
     <link rel="icon" type="image/x-icon" href="img/labs-card.png">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/d06ff1c258.js" crossorigin="anonymous"></script>
     <script src="js/card-counter.js"></script> 
     <script src="js/filter-list.js"></script> 
     <script src="js/hide-non-kappa.js"></script>
   </head>
 
   <body>
+    <div class="popup-container" id="popupContainer">
+      <div class="donation-popup">
+        <button type="button" class="btn-close close-icon" aria-label="Close" onclick="closePopup()"></button>
+        <img class="donation-img" src="https://i.imgur.com/tvWwKoE.jpg" alt="https://venmo.com/u/shrimples" style="height: 450px; width: 460px;">
+      </div>
+    </div>
     <div class="donation-header">
         <h2 class="donation-header-header">Support the Site!</h2>
-        <p>This ad-free space runs solely on personal funds. Consider <a href="">buying me a coffee</a> to help keep the site alive and thriving.</p>
+        <p>This ad-free space runs solely on personal funds. Consider <a href="javascript:void(0);" id="openPopup">buying me a coffee</a> to help keep the site alive and thriving.</p>
     </div>
     <div class="root">
       <header class="header">
@@ -38,7 +46,7 @@
               <div class="icon-kappa" style="background: rgb(48, 69, 197);">Kap</div>
               <span class="icon-description">Quest required for Kappa</span>
             </div>
-          </div>
+          </div>  
           <div class="header-filters">
             <div class="filters">
               <div class="form-check">
@@ -52,8 +60,7 @@
         </div>
         
       </header>
-      <div class="space"></div>
-      <main class="contnet">
+      <main class="content">
       <input type="text" id="searchInput" placeholder="Search by Item Name">
 
       <div class="main-flex-container">
@@ -2122,6 +2129,7 @@
       <p>This page is up to date with the latest patch (0.14), ensuring that you have the most accurate information on required items.</p>
       <p>All images are copyrighted by BattleState Games. Data taken from the <a href="https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki">Escape from Tarkov Wiki</a> under <a href="https://www.fandom.com/licensing">CC BY-NC-SA 3.0 license</a>.</p>
     </div>
+    <script src="js/open-popup.js"></script>
   </div>
 </body>
 
